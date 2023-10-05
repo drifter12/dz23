@@ -33,4 +33,10 @@ public class FilterOperations {
         rgb[1] = 0;
         return rgb;
     }
+    @AppBotCommand(name = "yellow", description = "yellow filter",
+            showInKeyboard = true)
+    public static float[] onlyBlue(float[] rgb) {
+        rgb[2] = 0;
+        return rgb;
+    }
 }
