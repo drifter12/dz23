@@ -35,7 +35,7 @@ public class FilterOperations {
     }
     @AppBotCommand(name = "yellow", description = "yellow filter",
             showInKeyboard = true)
-    public static float[] onlyBlue(float[] rgb) {
+    public static float[] yellow(float[] rgb) {
         rgb[2] = 0;
         return rgb;
     }
